@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-brand-primary: 79 70 229; /* #4f46e5 */
+    --color-brand-secondary: 124 58 237; /* #7c3aed */
+    --color-base-100: 255 255 255; /* #ffffff */
+    --color-base-200: 241 245 249; /* #f1f5f9 */
+    --color-base-300: 226 232 240; /* #e2e8f0 */
+    --color-base-content: 15 23 42; /* #0f172a */
+    --color-base-content-secondary: 100 116 139; /* #64748b */
+    --color-success: 16 185 129; /* #10b981 */
+    --color-info: 59 130 246; /* #3b82f6 */
+    --color-warning: 245 158 11; /* #f59e0b */
+    --color-error: 239 68 68; /* #ef4444 */
+  }
+
+  .dark {
+    --color-brand-primary: 99 102 241; /* #6366f1 */
+    --color-brand-secondary: 139 92 246; /* #8b5cf6 */
+    --color-base-100: 15 23 42; /* #0f172a */
+    --color-base-200: 30 41 59; /* #1e293b */
+    --color-base-300: 51 65 85; /* #334155 */
+    --color-base-content: 226 232 240; /* #e2e8f0 */
+    --color-base-content-secondary: 148 163 184; /* #94a3b8 */
+    --color-success: 52 211 153; /* #34d399 */
+    --color-info: 96 165 250; /* #60a5fa */
+    --color-warning: 250 204 21; /* #facc15 */
+    --color-error: 248 113 113; /* #f87171 */
+  }
+}

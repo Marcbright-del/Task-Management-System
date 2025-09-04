@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Task Manager",
+  "description": "A modern, AI-powered task management application designed for productivity. It features a drag-and-drop Kanban board and leverages the Gemini API to intelligently break down complex tasks into manageable subtasks, enhancing project planning and execution.",
+  "requestFramePermissions": []
+}
